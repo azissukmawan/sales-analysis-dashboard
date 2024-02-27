@@ -8,7 +8,7 @@ from local_components import card_container
 YEAR = 2018
 PREVIOUS_YEAR = 2017
 CITIES = ["SP", "MG", "PR"]
-DATA_URL = "main_data.csv"
+DATA_URL = "https://raw.githubusercontent.com/azissukmawan/sales-analysis-dashboard/main/dashboard/main_data.csv"
 BAR_CHART_COLOR = "#000000"
 
 st.set_page_config(page_title="Sales Dashboard", page_icon="📈")
